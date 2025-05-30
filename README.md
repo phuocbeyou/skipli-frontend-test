@@ -68,5 +68,19 @@ yarn dev
 
 1. Clone repository:
    ```bash
-   git clone https://github.com/your-username/skipli-auth-app.git
+   git clone https://github.com/phuocbeyou/skipli-frontend-test
    cd skipli-auth-app
+
+## 📸 Screenshots
+
+### Enter number phone
+![Number Phone Page](./screenshots/step_1.jpg)
+
+### Firebase OTP
+![Verify OTP Page](./screenshots/step_2.jpg)
+
+### Verify OTP
+![Verify OTP Page](./screenshots/step_2.jpg)
+
+### Search github
+![Verify OTP Page](./screenshots/step_3.jpg)
