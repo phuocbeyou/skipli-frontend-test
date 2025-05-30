@@ -80,7 +80,7 @@ yarn dev
 ![Verify OTP Page](./screenshots/step_2.jpg)
 
 ### Verify OTP
-![Verify OTP Page](./screenshots/step_2.jpg)
+![Verify OTP Page](./screenshots/firebase.jpg)
 
 ### Search github
 ![Verify OTP Page](./screenshots/step_3.jpg)
