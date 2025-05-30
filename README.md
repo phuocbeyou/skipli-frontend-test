@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+# Skipli Auth App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Skipli Auth App is a modern React application built with TypeScript that provides authentication functionality with GitHub integration. The application uses React 19, Redux Toolkit for state management, React Query for data fetching, and React Router for navigation.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- GitHub authentication
+- User management
+- GitHub user search functionality
+- Pagination controls
+- Modern React practices with hooks
+- Type-safe development with TypeScript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React 19**: Frontend library
+- **TypeScript**: Static type checking
+- **Redux Toolkit**: State management
+- **React Query**: Data fetching and caching
+- **React Router DOM**: Navigation
+- **Axios**: HTTP client
+- **React Hot Toast**: Toast notifications
 
-### `npm test`
+## Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+skipli-auth-app/
+├── public/
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── configs/          # Configuration files
+│   ├── contexts/         # React contexts
+│   ├── hooks/            # Custom React hooks
+│   ├── pages/            # Page components
+│   │   └── auth/         # Authentication pages
+│   ├── github/           # GitHub integration
+│   │   ├── components/   # GitHub-specific components
+│   │   ├── hooks/        # GitHub-specific hooks
+│   │   ├── styles/       # GitHub-specific styles
+│   │   └── types/        # GitHub-specific types
+│   ├── routers/          # Routing configuration
+│   ├── services/         # API services
+│   ├── styles/           # Global styles
+│   ├── utils/            # Utility functions
+│   ├── App.tsx           # Main App component
+│   └── index.tsx         # Entry point
+├── .env                  # Environment variables
+├── .gitignore            # Git ignore file
+├── config-overrides.js   # Custom webpack configuration
+├── package.json          # Dependencies and scripts
+└── tsconfig.json         # TypeScript configuration
+```
 
-### `npm run build`
+## Start application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm dev
+yarn dev
+```
+## Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v20 hoặc cao hơn)
+- npm hoặc yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone repository:
+   ```bash
+   git clone https://github.com/your-username/skipli-auth-app.git
+   cd skipli-auth-app

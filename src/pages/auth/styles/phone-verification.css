@@ -1,0 +1,149 @@
+.phone-verification-container {
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .phone-verification-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    color: #24292e;
+  }
+  
+  .phone-verification-description {
+    color: #6a737d;
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+  }
+  
+  .phone-verification-form {
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #24292e;
+    margin-bottom: 4px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.2s ease;
+    box-sizing: border-box;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #0366d6;
+    box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.1);
+  }
+  
+  .form-input:disabled {
+    background-color: #f6f8fa;
+    color: #6a737d;
+    cursor: not-allowed;
+  }
+  
+  .form-input.code-input {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  .btn-primary {
+    background-color: #0366d6;
+    color: white;
+  }
+  
+  .btn-primary:hover:not(:disabled) {
+    background-color: #0256cc;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .btn-secondary:hover:not(:disabled) {
+    background-color: #5a6268;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+    flex: 1;
+  }
+  
+  .btn-success:hover:not(:disabled) {
+    background-color: #218838;
+  }
+  
+  .btn-link {
+    background: none;
+    border: none;
+    color: #0366d6;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+  }
+  
+  .btn-link:hover {
+    color: #0256cc;
+  }
+  
+  .alternative-action {
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  @media (max-width: 480px) {
+    .phone-verification-container {
+      padding: 16px;
+      max-width: 100%;
+    }
+  
+    .button-group {
+      flex-direction: column;
+    }
+  
+    .btn-success {
+      flex: none;
+    }
+  }
+  
